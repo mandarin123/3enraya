@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { GameContext } from "../../context/GameContext";
 import { ModalContext } from "../../context/ModalContext";
 import { ScoreContext } from "../../context/ScoreContext";
