@@ -24,39 +24,6 @@ export const Names = () => {
       score: 0,
     }));
   }
-    
-  useEffect(() => {
-    // localStorage.setItem("scoreboard", JSON.stringify([{ "name": name, "score": ties.x}]))
-    // const scoreBoard = JSON.parse(localStorage.getItem("scoreboard"));
-    // setPlayer(scoreBoard.find( x => x.name === name));
-    // if( !player ){
-    //   setPlayer({"name": name, "score": ties.x});
-    //   scoreBoard.push(player);
-    //   localStorage.setItem("scoreboard", JSON.stringify(scoreBoard))
-    // };
-    // console.log("player", player)
-    // console.log("scoreboard", scoreBoard)
-    // return player;
-    // const score = ties.x
-    // setPlayer({ "name": name, "score": score });
-    // localStorage.setItem("scoreboard", JSON.stringify(player));
-    // const player = { "name": name, "score": 5 }
-    
-    // localStorage.setItem("scoreBoard", JSON.stringify([{"name": name, "score": 5}]))
-    // console.log("scoreboard", localStorage.getItem("scoreBoard"))
-    // let scoreBoard = JSON.parse(localStorage.getItem("scoreBoard"));
-    // console.log("json.parse:scoreboard", scoreBoard)
-    // console.log("name",name)
-    // let player = scoreBoard.find((x) => x.name === name);
-    // console.log("player", player)
-    // if( !player ){
-    //   player = { "name": name, "score": 0 };
-    //   scoreBoard.push(player);
-    //   localStorage.setItem("scoreBoard", JSON.stringify(scoreBoard));
-    // } 
-    // return player;
-  },[]);
-
 
   return (
     <div className="name">
